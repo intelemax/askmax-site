@@ -1,7 +1,7 @@
 // pages/index.tsx
 
 import Head from "next/head";
-import { TOPEGrid } from "/components/TOPEGrid"; // ✅ Fixed import path
+import { TOPEGrid } from "../components/TOPEGrid"; // ✅ Fixed import path
 
 export default function Home() {
   return (
