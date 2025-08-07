@@ -39,7 +39,7 @@ export default function SilverBullets() {
             </div>
             <div>
               <label className="block mb-1 text-sm text-gray-400">Your Question for Max</label>
-              <textarea name="message" rows="4" className="w-full p-3 rounded-md bg-black text-white border border-gray-700"></textarea>
+             <textarea name="message" rows={4} className="w-full p-3 rounded-md bg-black text-white border border-gray-700"></textarea>
             </div>
             <button type="submit" className="w-full bg-blue-600 hover:bg-blue-700 text-white py-3 rounded-md font-semibold">Send to Max</button>
           </form>
